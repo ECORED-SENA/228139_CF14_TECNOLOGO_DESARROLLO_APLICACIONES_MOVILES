@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="190" height="190" viewBox="0 0 190 190">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_12188" data-name="Rectángulo 12188" width="190" height="190" transform="translate(1020 1379)" fill="#ffca28" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_62" data-name="Enmascarar grupo 62" transform="translate(-1020 -1379)" clip-path="url(#clip-path)">
+    <g id="google-play" transform="translate(1020 1379)">
+      <path id="Trazado_105631" data-name="Trazado 105631" d="M104.617,91.217l-91.9,91.9a21.787,21.787,0,0,1-6.768-16.029V22.947A22.081,22.081,0,0,1,12.958,6.681Z" fill="#2196f3"/>
+      <path id="Trazado_105632" data-name="Trazado 105632" d="M184.047,95.016a22.533,22.533,0,0,1-11.992,19.828l-26.121,14.485-32.413-29.92-8.9-8.192L138.93,56.9l33.126,18.284A22.533,22.533,0,0,1,184.047,95.016Z" fill="#ffc107"/>
+      <path id="Trazado_105633" data-name="Trazado 105633" d="M104.617,91.217,12.958,6.681a23.638,23.638,0,0,1,4.274-3.206,23.9,23.9,0,0,1,24.221-.356L138.93,56.9Z" fill="#4caf50"/>
+      <path id="Trazado_105634" data-name="Trazado 105634" d="M145.935,129.329,41.453,186.913A23.648,23.648,0,0,1,29.58,190a23.133,23.133,0,0,1-12.348-3.443,21.6,21.6,0,0,1-4.512-3.443l91.9-91.9,8.9,8.192Z" fill="#f44336"/>
+    </g>
+  </g>
+</svg>

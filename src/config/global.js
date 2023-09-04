@@ -1,19 +1,20 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    componenteFormativo: 'Instalador y despliegue de la aplicación móvil',
+    descripcionCurso:
+      'En este componente, el aprendiz conocerá parámetros de desarrollo y ejecución de una <i>app</i> móvil. Estudiará elementos que aseguren la calidad del montaje y despliegue de la <i>app</i>, identificando, además, fallas e inconsistencias del proceso de desarrollo y funcionamiento. Sabrá definir acciones correctivas y pruebas pertinentes para ofrecer una <i>app</i> útil, segura y acorde a necesidades de organizaciones o del mercado.',
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    // imagenesDecorativasBanner: [
+    //   {
+    //     clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+    //     imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+    //   },
+    //   {
+    //     clases: ['banner-principal-decorativo-2'],
+    //     imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+    //   },
+    // ],
   },
   menuPrincipal: {
     menu: [
@@ -30,29 +31,66 @@ export default {
       },
       {
         nombreRuta: 'tema1',
+        icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Calidad en desarrollo de <i>apps</i> móviles',
         desarrolloContenidos: true,
         subMenu: [
           {
+            icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Norma ISO 29119',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Tipos de pruebas de <i>software</i>',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Pruebas de calidad de <i>software</i>',
+            hash: 't_1_3',
           },
         ],
       },
 
       {
         nombreRuta: 'tema2',
+        icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Etapas para realizar pruebas de <i>software</i>',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Herramientas para pruebas de <i>apps</i> móviles',
         desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Validación de lineamientos para envió a las <i>app stores</i>',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: '<i>Google Play</i>',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: '<i>App Store</i>',
+            hash: 't_4_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -62,12 +100,12 @@ export default {
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
       },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',

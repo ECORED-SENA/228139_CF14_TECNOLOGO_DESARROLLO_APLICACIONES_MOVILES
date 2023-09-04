@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="244" height="206" viewBox="0 0 244 206">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_12192" data-name="Rectángulo 12192" width="244" height="206" transform="translate(546 3275)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_68" data-name="Enmascarar grupo 68" transform="translate(-546 -3275)" clip-path="url(#clip-path)">
+    <g id="web" transform="translate(547.547 3257.547)">
+      <path id="Trazado_105717" data-name="Trazado 105717" d="M240.906,56H0V23.878a6.424,6.424,0,0,1,6.424-6.424H234.482a6.424,6.424,0,0,1,6.424,6.424Z" fill="#3a556a"/>
+      <path id="Trazado_105718" data-name="Trazado 105718" d="M240.906,56h-131.7l19.605-22.406a9.637,9.637,0,0,1,7.252-3.291H240.906Z" fill="#d5d6db"/>
+      <path id="Trazado_105719" data-name="Trazado 105719" d="M231.27,223.453H9.636A9.636,9.636,0,0,1,0,213.817V56H240.906V213.817A9.637,9.637,0,0,1,231.27,223.453Z" fill="#ebf0f3"/>
+      <circle id="Elipse_4098" data-name="Elipse 4098" cx="9.636" cy="9.636" r="9.636" transform="translate(20.271 27.091)" fill="#fcd462"/>
+      <circle id="Elipse_4099" data-name="Elipse 4099" cx="9.636" cy="9.636" r="9.636" transform="translate(49.18 27.091)" fill="#e1e6e9"/>
+      <circle id="Elipse_4100" data-name="Elipse 4100" cx="9.636" cy="9.636" r="9.636" transform="translate(78.089 27.091)" fill="#27a2db"/>
+      <rect id="Rectángulo_13839" data-name="Rectángulo 13839" width="57.817" height="57.817" transform="translate(20.271 78.921)" fill="#e56353"/>
+      <rect id="Rectángulo_13840" data-name="Rectángulo 13840" width="57.817" height="18.094" transform="translate(20.271 150.551)" fill="#44c4a1"/>
+      <rect id="Rectángulo_13841" data-name="Rectángulo 13841" width="57.817" height="18.094" transform="translate(20.271 182.447)" fill="#1c75a1"/>
+      <g id="Grupo_60144" data-name="Grupo 60144">
+        <rect id="Rectángulo_13842" data-name="Rectángulo 13842" width="122.766" height="6.424" transform="translate(97.863 88.493)" fill="#d5d6db"/>
+        <rect id="Rectángulo_13843" data-name="Rectángulo 13843" width="122.766" height="6.424" transform="translate(97.863 104.65)" fill="#d5d6db"/>
+        <rect id="Rectángulo_13844" data-name="Rectángulo 13844" width="122.766" height="6.424" transform="translate(97.863 120.71)" fill="#d5d6db"/>
+        <rect id="Rectángulo_13845" data-name="Rectángulo 13845" width="122.766" height="6.424" transform="translate(97.863 156.236)" fill="#d5d6db"/>
+        <rect id="Rectángulo_13846" data-name="Rectángulo 13846" width="122.766" height="6.424" transform="translate(97.863 172.361)" fill="#d5d6db"/>
+        <rect id="Rectángulo_13847" data-name="Rectángulo 13847" width="122.766" height="6.424" transform="translate(97.863 188.421)" fill="#d5d6db"/>
+      </g>
+    </g>
+  </g>
+</svg>
