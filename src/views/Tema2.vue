@@ -12,7 +12,7 @@
         .cajon.color-acento-contenido.p-4.mb-4
           p.mb-0 Las fases o etapas de realización de las pruebas de <i>software</i> son: 
             b fase de inicio, fase de planeación, fase de diseño, fase de ejecución, fase de cierre o finalización
-            |; con una fase transversal de monitoreo y control. (Victoria y Ramírez, 2017)
+            |; con una fase transversal de monitoreo y control (Victoria y Ramírez, 2017).
       .col-lg-5: img(src="@/assets/curso/img19.jpg")(data-aos="slide-left")
     .tarjeta.color-1-claro.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center

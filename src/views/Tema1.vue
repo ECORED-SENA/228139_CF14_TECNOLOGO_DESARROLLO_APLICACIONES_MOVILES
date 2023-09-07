@@ -42,7 +42,7 @@
       .row
         .col-md-4.mb-4.mb-md-0
           h4.mb-5 Pruebas de <i>software</i>
-          p Para cumplir con estos estándares de calidad establecidos en el desarrollo de <i>software</i>, es necesario realizar actividades como las pruebas de <i>software</i>, donde se pueden identificar las fallas o falencias en cada uno de los parámetros establecidos, generando un informe con los hallazgos y errores, con el fin de solucionarlos a tiempo y lograr realizar la entrega de un producto de calidad. De esta manera, se garantiza que la aplicación logre pasar las pruebas que realizan las tiendas de las aplicaciones y seguir cumpliendo con las directrices de calidad de <i>Apple y Android</i>.
+          p Para cumplir con estos estándares de calidad establecidos en el desarrollo de <i>software</i>, es necesario realizar actividades como las pruebas de <i>software</i>, donde se pueden identificar las fallas o falencias en cada uno de los parámetros establecidos, generando un informe con los hallazgos y errores, con el fin de solucionarlos a tiempo y lograr realizar la entrega de un producto de calidad. De esta manera, se garantiza que la aplicación logre pasar las pruebas que realizan las tiendas de las aplicaciones y seguir cumpliendo con las directrices de calidad de Apple y Android.
         .col-md-8.pe-3
           figure
             img(src='@/assets/curso/img5.jpg', alt='Texto que describa la imagen')
@@ -55,7 +55,7 @@
             img(src='@/assets/curso/img6.jpg', alt='Texto que describa la imagen')
       .row
         .col-md-4.mb-4.mb-md-0
-          h4.mb-5 Por una app móvil óptima
+          h4.mb-5 Por una <em>app</em> móvil óptima
           p Las pruebas de calidad favorecen la construcción e integración de <i>software</i> y la integración de los productos asociados con su correcto funcionamiento, como la integración de las API de terceros. Es preciso utilizar un modelo de pruebas que sea claro y detallado y que se adapte a las necesidades de la aplicación. Las pruebas son elemento básico para alcanzar el desarrollo de una aplicación móvil de calidad; permiten nivelar la estrategia de trabajo, con el fin de lograr una mayor confiabilidad, mantenibilidad y facilidad de las soluciones. (Hesham y Shakeel, 2018)
         .col-md-8.pe-3
           figure
@@ -68,7 +68,7 @@
       h2 1.1 Norma ISO 29119
     .row.mb-5
       .col-lg-7
-        p.mb-4 El objetivo de la norma ISO/IEC 29119, pruebas de <i>software</i>, es proporcionar una norma definitiva para las pruebas de <i>software</i>, que defina el vocabulario, los procesos, documentación, técnicas y un modelo de evaluación del proceso de pruebas de <i>software</i> que se puede utilizar dentro de cualquier ciclo de vida de desarrollo. (Hesham y Shakeel, 2018).
+        p.mb-4 El objetivo de la norma ISO/IEC 29119, pruebas de <i>software</i>, es proporcionar una norma definitiva para las pruebas de <i>software</i>, que defina el vocabulario, los procesos, documentación, técnicas y un modelo de evaluación del proceso de pruebas de <i>software</i> que se puede utilizar dentro de cualquier ciclo de vida de desarrollo (Hesham y Shakeel, 2018).
         .cajon.color-acento-contenido.p-4.mb-4
           p El principal objetivo para realizar las pruebas es identificar si el <i>software</i> hace lo que debe hacer, de la manera correcta. Pero también probar si hace o genera otras actividades como efectos secundarios adversos, descubrir un fallo, una falencia, algún detalle que aún no ha sido identificado y que tiene consecuencias en el correcto funcionamiento de los procesos y actividades, y no sólo de la aplicación que se está evaluando, sino de todo el ecosistema en el cual está trabajando. Lo ideal es encontrar la mayor cantidad de errores en el menor tiempo posible y con la menor cantidad de recursos.
       .col-lg-5: img(src="@/assets/curso/img9.svg")(data-aos="slide-left")
@@ -122,7 +122,7 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Uf1Kk52ONYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Tipos de pruebas de software
+      figcaption Video. Tipos de pruebas de #[em software]
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3 Pruebas de calidad de <i>software</i>
     p.mb-5 En el mismo sentido que se aplican todas las pruebas de <i>software</i>, se han de aplicar las pruebas de calidad del <i>software</i>, las cuales tienen unos pasos a seguir y favorecen una comprensión clara del <i>software</i> en términos de diseño, especificaciones, tiempos de trabajo, componentes, ejecución. Estas pruebas de calidad del <i>software</i> incluyen una estrategia y un plan de prueba, e incluso, el informe final de la prueba aplicada.

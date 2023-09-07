@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Instalador y despliegue de la aplicación móvil',
     descripcionCurso:
-      'En este componente, el aprendiz conocerá parámetros de desarrollo y ejecución de una <i>app</i> móvil. Estudiará elementos que aseguren la calidad del montaje y despliegue de la <i>app</i>, identificando, además, fallas e inconsistencias del proceso de desarrollo y funcionamiento. Sabrá definir acciones correctivas y pruebas pertinentes para ofrecer una <i>app</i> útil, segura y acorde a necesidades de organizaciones o del mercado.',
+      'En este componente, se conocerán los parámetros de desarrollo y ejecución de una app móvil. Se estudiarán los elementos que aseguren la calidad del montaje y despliegue de la <em>app</em>, identificando, además, fallas e inconsistencias del proceso de desarrollo y funcionamiento; junto con la definición de acciones correctivas y pruebas pertinentes para ofrecer una <em>app</em> útil, segura y acorde a necesidades de organizaciones o del mercado.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
     // imagenesDecorativasBanner: [
@@ -31,25 +31,22 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
+
         numero: '1',
         titulo: 'Calidad en desarrollo de <i>apps</i> móviles',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Norma ISO 29119',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Tipos de pruebas de <i>software</i>',
             hash: 't_1_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Pruebas de calidad de <i>software</i>',
             hash: 't_1_3',
@@ -59,33 +56,31 @@ export default {
 
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
+
         numero: '2',
         titulo: 'Etapas para realizar pruebas de <i>software</i>',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
+
         numero: '3',
         titulo: 'Herramientas para pruebas de <i>apps</i> móviles',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
+
         numero: '4',
         titulo: 'Validación de lineamientos para envió a las <i>app stores</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '4.1',
             titulo: '<i>Google Play</i>',
             hash: 't_4_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.2',
             titulo: '<i>App Store</i>',
             hash: 't_4_2',
@@ -100,12 +95,12 @@ export default {
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
       },
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -140,32 +135,98 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1. Calidad en desarrollo de apps móviles',
+      referencia:
+        'Tech Community Day. (2020, 13 junio). Guillermo Zepeda - Despliegue de Aplicaciones Móviles con AppCenter [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=SC1sRe3h-Qs',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '4. Validación de lineamientos para envío a las app stores',
+      referencia:
+        'Moure, B. [MoureDev by Brais Moure]. (2019, 24 octubre). APP STORE Cómo PUBLICAR tu primera APP | Tutorial Español | MoureDev',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=tg6YcD52jNA',
+    },
+    {
+      tema: '4.1 Google Play',
+      referencia:
+        'Luján, E. D. [EDteam]. (2020, 16 junio). ¿Cómo subir tu app a la Play Store? [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=EOkKc1Oc92M',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'APK',
+      significado:
+        'es el formato de una aplicación desarrollada exclusivamente para el sistema operativo de Google, Android. APK es el acrónimo de <em>Android Application Package</em> y, en comparación, es como los archivos .EXE en Windows.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'ASO',
+      significado:
+        'proceso de optimizar aplicaciones móviles para tener una posición más alta en las tiendas y es descrito optimización para lograr una aceleración en la visibilidad de la aplicación e incrementar descargas.',
+    },
+    {
+      termino: '<em>Backup</em>',
+      significado:
+        'es una copia de seguridad o una copia de respaldo que se realiza sobre los datos originales, con el fin de contar con un elemento que permita la recuperación de los datos, en caso de su pérdida.',
+    },
+    {
+      termino: 'ISO',
+      significado:
+        'es la Organización Internacional de Normalización, una institución encargada de la creación de estándares internacionales, compuesta por diversas organizaciones nacionales de normalización.',
+    },
+    {
+      termino: 'Soportabilidad',
+      significado:
+        'también se puede encontrar como "portabilidad" es una de las definiciones utilizadas en programación de alto nivel. Se define como la característica que posee un software para ejecutarse en diferentes plataformas.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Bolaños, D., Sierra, A., y Alarcón, M. (2008). Pruebas de Software y JUnit. Pearson Prentice Hall.',
       link: '',
+    },
+    {
+      referencia:
+        'Correa, M. (2013). Composición del sistema operativo móvil IOS de Apple y el hardware y software que lo utilizan. Universidad Católica de Pereira.',
+      link:
+        'https://docplayer.es/1521033-Composicion-del-sistema-operativo-movil-ios-de-apple-y-el-hardware-y-software-que-lo-utilizan-melissa-correa-rios.html',
+    },
+    {
+      referencia:
+        'Hesham, A. & Shakeel, A. (2018). Overview of Software Testing Standard ISO/IEC/IEEE 29119. International Journal of Computer Science and Network Security, 18(2), p. 112-116.',
+      link:
+        'https://www.researchgate.net/profile/Shakeel-Ahmed-46/publication/323759544_Overview_of_Software_Testing_Standard_ISOIECIEEE_29119/links/5e5923c84585152ce8f64d83/Overview-of-Software-Testing-Standard-ISO-IEC-IEEE-29119.pdf',
+    },
+    {
+      referencia: 'ISO 25000. (s.f.). ISO/IEC 25040.',
+      link: 'https://iso25000.com/index.php/normas-iso-25000/iso-25040?start=3',
+    },
+    {
+      referencia:
+        'Minguet, J. y Cueva, J. (2003). La calidad del software y su medida. Editorial Universitaria Ramón Areces.',
+      link: '',
+    },
+    {
+      referencia:
+        'Noriega, D., Gabino, N. y Hernández, C. (2007). Calidad de Software. Universidad de Matanzas "Camilo Cienfuegos"',
+      link:
+        'http://www.monografias.com/trabajos59/calidad-software/calidad-software.shtml',
+    },
+    {
+      referencia:
+        'Puglla, G. (2017). Marco de trabajo para control de calidad en el desarrollo de aplicaciones móviles bajo metodologías ágiles. Universidad Técnica Particular de Loja.',
+      link:
+        'https://docplayer.es/91113144-Universidad-tecnica-particular-de-loja-la-universidad-catolica-de-loja-area-tecnica.html',
+    },
+    {
+      referencia:
+        'Victoria, I. & Ramírez, F. (2017). Definición de un proceso de pruebas para pequeñas organizaciones que desarrollan aplicaciones para móviles. Universidad del Cauca.',
+      link:
+        'http://repositorio.unicauca.edu.co:8080/bitstream/handle/123456789/1743/DEFINICI%C3%93N%20DE%20UN%20PROCESO%20DE%20PRUEBAS%20PARA%20PEQUE%C3%91AS%20ORGANIZACIONES%20QUE%20%20DESARROLLAN%20APLICACIONES%20PARA%20M%C3%93VILES.pdf?sequence=1&isAllowed=y',
     },
   ],
   creditos: [
@@ -189,8 +250,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Miroslava González Hernández',
+          cargo: 'Diseñadora Instruccional',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable desarrollo curricular Ecosistema RED Santande',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
@@ -200,25 +267,31 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Camilo Andres Bolaño Rey',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Daniela Muñoz Bedoya ',
           cargo: 'Animador y Producción audiovisual',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Camilo Andres Bolaño Rey',
+          cargo: 'Locución',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Camilo Andres Bolaño Rey',
           cargo: 'Actividad Didáctica',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
@@ -242,7 +315,7 @@ export default {
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },

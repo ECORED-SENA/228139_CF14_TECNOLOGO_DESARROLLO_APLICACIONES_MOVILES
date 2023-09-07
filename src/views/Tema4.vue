@@ -5,12 +5,12 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Validación de lineamientos para envió a las app stores
+      h1 Validación de lineamientos para envió a las #[em app stores]
     .row.mb-5
       .col-lg-7
-        p.mb-4 Las aplicaciones originales de iPhone y Android sólo se pueden distribuir a través de sus respectivas tiendas en línea(app store). La app store tiene una serie de pautas que sus aplicaciones deben seguir. Por lo tanto, al probar aplicaciones móviles, debe incluir casos de prueba para verificar el cumplimiento de estas pautas. 
+        p.mb-4 Las aplicaciones originales de iPhone y Android sólo se pueden distribuir a través de sus respectivas tiendas en línea (app store). La app store tiene una serie de pautas que sus aplicaciones deben seguir. Por lo tanto, al probar aplicaciones móviles, debe incluir casos de prueba para verificar el cumplimiento de estas pautas. 
         .cajon.color-acento-contenido.p-4.mb-4
-          p.mb-0 Para identificar estos casos de prueba, se deben consultar las condiciones impuestas por Applepara dispositivos <i>iOS</i> como iPhones y iPads, así como las pautas requeridas por Google para teléfonos y tabletas Android. 
+          p.mb-0 Para identificar estos casos de prueba, se deben consultar las condiciones impuestas por Apple para dispositivos <i>iOS</i> como <em>iPhones y iPads</em>, así como las pautas requeridas por Google para teléfonos y tabletas Android. 
       .col-lg-5: img(src="@/assets/curso/img26.jpg")(data-aos="slide-left")
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.1 Google Play
@@ -49,7 +49,7 @@
             img(src='@/assets/curso/img31.svg', alt='Texto que describa la imagen' style='width:190px')(data-aos="slide-right")
         .col-md-9
           h3 Publicación de la aplicación
-          p Después de completar estos pasos, se puede descargar el binario (archivo <i>.apk</i>) y seguir las instrucciones en la consola de Google para iniciar la instancia de publicación de la aplicación. <i>APK (Android Package Kit)</i> es un formato de archivo que utiliza el sistema operativo Android para instalar y ejecutar aplicaciones. Un archivo <i>APK</i> contiene todos los elementos que la aplicación necesita para funcionar efectivamente en un dispositivo Android.  Para realizar el proceso de publicación de la aplicación es necesario realizar el proceso de registro como desarrollador y realizar el pago correspondiente. 
+          p Después de completar estos pasos, se puede descargar el binario (archivo <i> <b>.apk</b></i>) y seguir las instrucciones en la consola de Google para iniciar la instancia de publicación de la aplicación. <i>APK (Android Package Kit)</i> es un formato de archivo que utiliza el sistema operativo Android para instalar y ejecutar aplicaciones. Un archivo <i>APK</i> contiene todos los elementos que la aplicación necesita para funcionar efectivamente en un dispositivo Android.  Para realizar el proceso de publicación de la aplicación es necesario realizar el proceso de registro como desarrollador y realizar el pago correspondiente. 
       .row
         .col-md-9.mb-4.mb-md-0
           h3 Condiciones y requerimientos 

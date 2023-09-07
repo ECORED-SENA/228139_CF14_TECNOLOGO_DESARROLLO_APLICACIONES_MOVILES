@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Herramientas para pruebas de apps móviles 
+      h1 Herramientas para pruebas de #[em apps] móviles 
     figure.mb-5
       img(src='@/assets/curso/img21.jpg', alt='Tablero con pegatinas')
     p.mb-5 Para realizar pruebas de funcionalidad y calidad de <i>software</i>, existe una gran cantidad de herramientas que ofrecen tal servicio y que aportan a la ejecución de esta actividad, facilitando entornos de evaluación de cada uno de los módulos y componentes de las aplicaciones móviles. En su mayoría, estos instrumentos son de pago y requieren gran cantidad de esfuerzo del grupo de trabajo para lograr un óptimo resultado.
@@ -20,7 +20,7 @@
               img(src='@/assets/curso/img22.jpg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
             h4 Herramientas de pruebas más populares
-            p Uno de los más populares y utilizados es Testim. Se trata de una herramienta de prueba de <i>software</i> que utiliza el aprendizaje automático y soporta pruebas para dispositivos móviles. Otro instrumento es BlazeMeter, que se utiliza para ejecutar casos de prueba de rendimiento en aplicaciones móviles, API o aplicaciones web, para evaluar el rendimiento en cualquier etapa del desarrollo de la aplicación.  Otra herramienta muy popular entre los desarrolladores de <i>software</i> es Selenium WebDriver Mobile. Uno de sus grandes inconvenientes es que sólo simula <i>Android</i>. Para solucionar este problema se generó un <i>framework Appium</i> que permite trabajar con Windows Phone, iOS y Android.
+            p Uno de los más populares y utilizados es Testim. Se trata de una herramienta de prueba de <i>software</i> que utiliza el aprendizaje automático y soporta pruebas para dispositivos móviles. Otro instrumento es BlazeMeter, que se utiliza para ejecutar casos de prueba de rendimiento en aplicaciones móviles, API o aplicaciones web, para evaluar el rendimiento en cualquier etapa del desarrollo de la aplicación.  Otra herramienta muy popular entre los desarrolladores de <i>software</i> es Selenium WebDriver Mobile. Uno de sus grandes inconvenientes es que sólo simula Android. Para solucionar este problema se generó un <i>framework</i> Appium que permite trabajar con Windows Phone, iOS y Android.
       .py-3.py-md-4(titulo="<em>AWS Device Farm</em>")
         .row.justify-content-center
           .col-md-5
@@ -29,14 +29,14 @@
           .col-md-6.mb-4.mb-md-0
             h4 <i>AWS Device Farm</i>
             p Es un servicio de prueba de aplicaciones que permite mejorar la calidad de las páginas web y aplicaciones móviles al realizar pruebas en diferentes navegadores de escritorio y diferentes sistemas operativos móviles sin tener que configurar ni administrar la infraestructura de prueba. Este servicio permite ejecutar pruebas en varios navegadores de escritorio y dispositivos reales, que aceleran la configuración y realización de pruebas, obteniendo los resultados en videos y registros para ayudar a identificar, rápidamente, problemas en su aplicación.
-      .py-3.py-md-4(titulo="Herramienta  TestDroid")
+      .py-3.py-md-4(titulo="Herramienta  <em>TestDroid</em>")
         .row.justify-content-center
           .col-md-5
             figure
               img(src='@/assets/curso/img24.jpg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
-            h4 Herramienta  TestDroid
-            p Esta es una herramienta en línea, de la compañía TestMatick, para pruebas de interfaz de usuario, programadas en diferentes dispositivos Android. TestDroid permite a los desarrolladores e investigadores documentar los <i>scripts</i> de prueba, los cuales se ejecutan automáticamente en paralelo con la aplicación, en diferentes dispositivos. Esta herramienta informa los resultados de estas pruebas y permite a los desarrolladores e investigadores identificar rápidamente las versiones de Android donde las aplicaciones pueden no funcionar. Al mismo tiempo, la herramienta se puede utilizar para identificar una amplia gama de problemas y frecuentes errores de programación asociados con cada dispositivo.
+            h4 Herramienta  #[em TestDroid]
+            p Esta es una herramienta en línea, de la compañía TestMatick, para pruebas de interfaz de usuario, programadas en diferentes dispositivos Android. #[em TestDroid] permite a los desarrolladores e investigadores documentar los <i>scripts</i> de prueba, los cuales se ejecutan automáticamente en paralelo con la aplicación, en diferentes dispositivos. Esta herramienta informa los resultados de estas pruebas y permite a los desarrolladores e investigadores identificar rápidamente las versiones de Android donde las aplicaciones pueden no funcionar. Al mismo tiempo, la herramienta se puede utilizar para identificar una amplia gama de problemas y frecuentes errores de programación asociados con cada dispositivo.
             .d-flex
               a.boton.color-acento-botones.mb-5.indicador__container(@click="modal1 = true").me-5
                 span 
@@ -44,7 +44,7 @@
                 .indicador--click(v-if="mostrarIndicador")
               a.boton.color-acento-botones.mb-5.indicador__container(@click="modal2 = true").me-5
                 span 
-                  b TestDroid permite
+                  b #[em TestDroid] permite
                 .indicador--click(v-if="mostrarIndicador")
     ModalA(:abrir-modal.sync="modal1")
       .row.align-items-center.justify-content-center
