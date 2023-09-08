@@ -14,6 +14,10 @@
         .cajon.color-acento-contenido.p-4.mb-4
           p Para la elaboración de este componente, se abordaron varios autores conocidos en instalación y despliegue de aplicaciones móviles, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de la programación de aplicaciones para dispositivos móviles.
       .col-lg-6: img(src="@/assets/curso/img1.jpg")
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Lkxr2NRpojA?si=AuTTRCRdi9N-Ng45" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Instalador y despliegue de la aplicación móvil
 </template>
 
 <script>
