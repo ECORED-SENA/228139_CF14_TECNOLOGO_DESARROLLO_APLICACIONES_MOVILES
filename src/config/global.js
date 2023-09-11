@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Instalador y despliegue de la aplicación móvil',
     descripcionCurso:
-      'En este componente, se conocerán los parámetros de desarrollo y ejecución de una app móvil. Se estudiarán los elementos que aseguren la calidad del montaje y despliegue de la <em>app</em>, identificando, además, fallas e inconsistencias del proceso de desarrollo y funcionamiento; junto con la definición de acciones correctivas y pruebas pertinentes para ofrecer una <em>app</em> útil, segura y acorde a necesidades de organizaciones o del mercado.',
+      'En este componente, se conocerán los parámetros de desarrollo y ejecución de una <em>app</em> móvil. Se estudiarán los elementos que aseguren la calidad del montaje y despliegue de la <em>app</em>, identificando, además, fallas e inconsistencias del proceso de desarrollo y funcionamiento; junto con la definición de acciones correctivas y pruebas pertinentes para ofrecer una <em>app</em> útil, segura y acorde a necesidades de organizaciones o del mercado.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
     // imagenesDecorativasBanner: [
