@@ -8,7 +8,7 @@
       h1 Validación de lineamientos para envió a las #[em app stores]
     .row.mb-5
       .col-lg-7
-        p.mb-4 Las aplicaciones originales de iPhone y Android sólo se pueden distribuir a través de sus respectivas tiendas en línea (app store). La app store tiene una serie de pautas que sus aplicaciones deben seguir. Por lo tanto, al probar aplicaciones móviles, debe incluir casos de prueba para verificar el cumplimiento de estas pautas. 
+        p.mb-4 Las aplicaciones originales de iPhone y Android sólo se pueden distribuir a través de sus respectivas tiendas en línea #[em (app store)]. La #[em app store] tiene una serie de pautas que sus aplicaciones deben seguir. Por lo tanto, al probar aplicaciones móviles, debe incluir casos de prueba para verificar el cumplimiento de estas pautas. 
         .cajon.color-acento-contenido.p-4.mb-4
           p.mb-0 Para identificar estos casos de prueba, se deben consultar las condiciones impuestas por Apple para dispositivos <i>iOS</i> como <em>iPhones y iPads</em>, así como las pautas requeridas por Google para teléfonos y tabletas Android. 
       .col-lg-5: img(src="@/assets/curso/img26.jpg")(data-aos="slide-left")
@@ -28,11 +28,11 @@
           p Google Play es una biblioteca que permite a los usuarios navegar y buscar aplicaciones según sus intereses. Cuando un usuario abre una lista de aplicaciones, sólo toma unos segundos determinar si satisface sus necesidades. Por esa razón es tan importante el ícono de la aplicación; este debe llamar la atención y hacer que sus anuncios sean atractivos para que los usuarios descarguen la aplicación. 
         .col-md-3
           figure
-            img(src='@/assets/curso/img28.svg', alt='Texto que describa la imagen' style='width:190px')(data-aos="slide-left")
+            img(src='@/assets/curso/img28.svg', alt='' style='width:190px')(data-aos="slide-left")
       .row
         .col-md-3.mb-4.mb-md-0
           figure
-            img(src='@/assets/curso/img29.svg', alt='Texto que describa la imagen' style='width:190px')(data-aos="slide-right")
+            img(src='@/assets/curso/img29.svg', alt='' style='width:190px')(data-aos="slide-right")
         .col-md-9
           h3 Texto descriptivo
           p El texto de descripción de la aplicación es fundamental para garantizar el éxito en el reconocimiento y aceptación de los usuarios. Dicho texto descriptivo debe seguir algunos criterios y parámetros de orden técnico y publicitario. Estos son los detalles que se muestran a los clientes en Google Play.
@@ -42,11 +42,11 @@
           p La descripción breve es el texto del anuncio. Es el primer texto que visualiza el usuario y describe la aplicación. La descripción larga utiliza las palabras clave adecuadas para describir con precisión la aplicación, esta debe atraer a los espectadores y optimizar el proceso de adquisición de la aplicación por curiosidad o por servicio. Son importantes también las capturas de pantalla adecuadas para mejorar la imagen de la marca y mostrar las mejores funciones de su aplicación.  
         .col-md-3
           figure
-            img(src='@/assets/curso/img30.svg', alt='Texto que describa la imagen' style='width:190px')(data-aos="slide-left")
+            img(src='@/assets/curso/img30.svg', alt='' style='width:190px')(data-aos="slide-left")
       .row
         .col-md-3.mb-4.mb-md-0
           figure
-            img(src='@/assets/curso/img31.svg', alt='Texto que describa la imagen' style='width:190px')(data-aos="slide-right")
+            img(src='@/assets/curso/img31.svg', alt='' style='width:190px')(data-aos="slide-right")
         .col-md-9
           h3 Publicación de la aplicación
           p Después de completar estos pasos, se puede descargar el binario (archivo <i> <b>.apk</b></i>) y seguir las instrucciones en la consola de Google para iniciar la instancia de publicación de la aplicación. <i>APK (Android Package Kit)</i> es un formato de archivo que utiliza el sistema operativo Android para instalar y ejecutar aplicaciones. Un archivo <i>APK</i> contiene todos los elementos que la aplicación necesita para funcionar efectivamente en un dispositivo Android.  Para realizar el proceso de publicación de la aplicación es necesario realizar el proceso de registro como desarrollador y realizar el pago correspondiente. 
@@ -56,7 +56,7 @@
           p Es importante realizar el paso a paso, como lo indica Google, para lograr tener éxito. Es necesario seguir al pie de la letra cada una de las condiciones y requerimientos. Después de realizar el procedimiento, Google y su equipo de verificadores realizan las pruebas necesarias a la aplicación, comprobando si cumple con los requerimientos mínimos para ser publicada; esto puede tardar entre una o tres semanas aproximadamente, dependiendo de la cantidad de aplicaciones que están en proceso de aprobación.
         .col-md-3
           figure
-            img(src='@/assets/curso/img32.svg', alt='Texto que describa la imagen' style='width:190px')(data-aos="slide-left")
+            img(src='@/assets/curso/img32.svg', alt='' style='width:190px')(data-aos="slide-left")
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.2 App Store
     .row.mb-5
@@ -71,7 +71,7 @@
         .row
           .col-xl-4.mb-4
             figure
-              img(src='@/assets/curso/img34.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/img34.svg', alt='')
           .col-xl-8
             h4 Cuenta de desarrollador de Apple
             p De la misma manera que en Google Play es necesario realizar un registro, se requiere hacerlo como desarrollador de Apple para crear aplicaciones <i>iOS</i> y publicarlas en la respectiva App Store. Esta cuenta tiene un valor, para el año 2021, que no supera los US$99 y debe renovarse anualmente. Si no se renueva, se corre el riesgo de que las aplicaciones vinculadas a la cuenta se desvinculen, por lo cual es recomendable hacer los pagos de manera oportuna. Unirse a este programa para desarrolladores también le permite crear aplicaciones iOS y probarlas en su dispositivo.
@@ -79,7 +79,7 @@
         .row
           .col-xl-4.mb-4
             figure
-              img(src='@/assets/curso/img35.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/img35.svg', alt='')
           .col-xl-8
             h4 Envío a la App Store
             p Es importante leer las recomendaciones y las pautas de revisión de la App Store antes de comenzar el proceso de envío. De hecho, el equipo de revisión de Apple, por ejemplo, revisa cada aplicación antes de aprobar la versión. La mayoría de las negativas de Apple obedecen al incumplimiento de los conceptos básicos.
@@ -87,7 +87,7 @@
         .row
           .col-xl-4.mb-4
             figure
-              img(src='@/assets/curso/img36.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/img36.svg', alt='')
           .col-xl-8
             h4 <i>App Store Optimization</i> (ASO)
             p Es necesario proporcionar toda la información requerida, como íconos, vistas previas de aplicaciones / capturas de pantalla y metadatos, nombre de la aplicación, categoría, descripción detallada y palabras clave, <i>ASO</i> adicionales (procesos de optimización de las <i>apps</i>), antes de enviar la solicitud para revisión.
@@ -95,7 +95,7 @@
         .row
           .col-xl-4.mb-4
             figure
-              img(src='@/assets/curso/img37.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/img37.svg', alt='')
           .col-xl-8
             h4 Detalles de impacto y persuasión
             p La primera frase (las tres primeras líneas) son las más importantes. Esto se debe a que los detalles de la aplicación se pueden confirmar sin que el usuario la descargue. En este paso es muy importante ser específicos, claros y concisos para transmitir el valor fundamental de la aplicación a los usuarios. El nombre de la cuenta de desarrollador debe ser el mismo que el del propietario de la aplicación. Este es el nombre que aparecerá debajo de la aplicación en la tienda. 
