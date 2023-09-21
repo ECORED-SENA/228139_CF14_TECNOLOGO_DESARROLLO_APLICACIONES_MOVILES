@@ -83,13 +83,13 @@
           .col-xl-8
             h4 Envío a la App Store
             p Es importante leer las recomendaciones y las pautas de revisión de la App Store antes de comenzar el proceso de envío. De hecho, el equipo de revisión de Apple, por ejemplo, revisa cada aplicación antes de aprobar la versión. La mayoría de las negativas de Apple obedecen al incumplimiento de los conceptos básicos.
-      .tarjeta.color-2-claro.p-4(titulo="<em>App Store Optimization</em> (ASO)")
+      .tarjeta.color-2-claro.p-4(titulo="App Store Optimization (ASO)")
         .row
           .col-xl-4.mb-4
             figure
               img(src='@/assets/curso/img36.svg', alt='')
           .col-xl-8
-            h4 <i>App Store Optimization</i> (ASO)
+            h4 App Store Optimization (ASO)
             p Es necesario proporcionar toda la información requerida, como íconos, vistas previas de aplicaciones / capturas de pantalla y metadatos, nombre de la aplicación, categoría, descripción detallada y palabras clave, <i>ASO</i> adicionales (procesos de optimización de las <i>apps</i>), antes de enviar la solicitud para revisión.
       .tarjeta.color-2-claro.p-4(titulo="Detalles de impacto y persuasión")
         .row

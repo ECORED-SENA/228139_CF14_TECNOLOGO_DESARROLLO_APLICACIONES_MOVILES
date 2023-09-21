@@ -20,7 +20,7 @@
               img(src='@/assets/curso/img22.jpg', alt='')
           .col-md-6.mb-4.mb-md-0
             h4 Herramientas de pruebas más populares
-            p Uno de los más populares y utilizados es Testim. Se trata de una herramienta de prueba de <i>software</i> que utiliza el aprendizaje automático y soporta pruebas para dispositivos móviles. Otro instrumento es BlazeMeter, que se utiliza para ejecutar casos de prueba de rendimiento en aplicaciones móviles, API o aplicaciones web, para evaluar el rendimiento en cualquier etapa del desarrollo de la aplicación.  Otra herramienta muy popular entre los desarrolladores de <i>software</i> es Selenium WebDriver Mobile. Uno de sus grandes inconvenientes es que sólo simula Android. Para solucionar este problema se generó un <i>framework</i> Appium que permite trabajar con Windows Phone, iOS y Android.
+            p Uno de los más populares y utilizados es Testim. Se trata de una herramienta de prueba de <i>software</i> que utiliza el aprendizaje automático y soporta pruebas para dispositivos móviles. Otro instrumento es BlazeMeter, que se utiliza para ejecutar casos de prueba de rendimiento en aplicaciones móviles, API o aplicaciones web, para evaluar el rendimiento en cualquier etapa del desarrollo de la aplicación.  Otra herramienta muy popular entre los desarrolladores de <i>software</i> es Selenium WebDriver Mobile. Uno de sus grandes inconvenientes es que sólo simula Android. Para solucionar este problema se generó un <i>framework Appium</i> que permite trabajar con Windows Phone, iOS y Android.
       .py-3.py-md-4(titulo="<em>AWS Device Farm</em>")
         .row.justify-content-center
           .col-md-5
@@ -53,7 +53,7 @@
           span Pasos para la ejecución de pruebas automatizadas
         img(src="@/assets/curso/img25.svg" alt="Seis pasos para la ejecución de pruebas.")
     ModalA(:abrir-modal.sync="modal2")
-      .tarjeta.color-2-claro.p-5
+      .tarjeta.color-2-claro.p-lg-5.p-2
         .row.justify-content-center
           .col-lg-10
             h2 <i>TestDroid</i> permite específicamente:
